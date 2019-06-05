@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ChinchaiChia.github.io</id>
     <title>Chinchai的猪窝</title>
-    <updated>2019-06-05T05:09:48.548Z</updated>
+    <updated>2019-06-05T05:14:17.413Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ChinchaiChia.github.io"/>
     <link rel="self" href="https://ChinchaiChia.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://ChinchaiChia.github.io/images/avatar.png</logo>
     <icon>https://ChinchaiChia.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Chinchai的猪窝</rights>
+    <entry>
+        <title type="html"><![CDATA[【SEO】2019年最优的seo优化方]]></title>
+        <id>https://ChinchaiChia.github.io/post/seo-2019-nian-zui-you-de-seo-you-hua-fang</id>
+        <link href="https://ChinchaiChia.github.io/post/seo-2019-nian-zui-you-de-seo-you-hua-fang">
+        </link>
+        <updated>2019-06-05T05:13:22.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WEB前端知识分享]]></title>
+        <id>https://ChinchaiChia.github.io/post/web-qian-duan-zhi-shi-fen-xiang</id>
+        <link href="https://ChinchaiChia.github.io/post/web-qian-duan-zhi-shi-fen-xiang">
+        </link>
+        <updated>2019-06-05T05:11:29.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[网络优化必须知道：SEO, CTR，CR, ROI这几个词的意思]]></title>
         <id>https://ChinchaiChia.github.io/post/wang-luo-you-hua-bi-xu-zhi-dao-seo-ctrcr-roi-zhe-ji-ge-ci-de-yi-si</id>

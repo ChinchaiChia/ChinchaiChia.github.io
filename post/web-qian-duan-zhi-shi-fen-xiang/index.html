@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>WEB前端知识分享 | Chinchai的猪窝</title>
+<link rel="shortcut icon" href="https://ChinchaiChia.github.io/favicon.ico?v=1559711654188">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://ChinchaiChia.github.io/styles/main.css">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://ChinchaiChia.github.io">
+  <img class="avatar" src="https://ChinchaiChia.github.io/images/avatar.png?v=1559711654188" alt="">
+  </a>
+  <h1 class="site-title">
+    Chinchai的猪窝
+  </h1>
+  <p class="site-description">
+    傻与不傻，要看你会不会装傻。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://ChinchaiChia.github.io" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="https://ChinchaiChia.github.io/post/about/" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              WEB前端知识分享
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-06-05 ·
+              </time>
+              
+            </div>
+            
+              <div class="post-feature-image" style="background-image: url('https://ChinchaiChia.github.io/post-images/web-qian-duan-zhi-shi-fen-xiang.jpg')">
+              </div>
+            
+            <div class="post-content">
+              <p>多年的WEB前端优化心得分享出来给大家，小小心意，请笑纳。
+WEB前端知识分享
+一、html页面优化
+1.css文件放在head，js文件放在html尾部（</body>的前面即可）
+因为：下载某一个js时其他任务是暂停的，需要等这个JS下载并执行完毕后再下载其他的。
+2.尽量减少标签，不多用一个标签
+比如:clear清除浮动用:after
+3.减少dns查询
+每引用一个来自外部的文件，就会有一个dns查询，一般对首次访问网站的速度会有影响。
+4.避免出现空的src，如 src=&quot;&quot;
+5.减少http请求
+比如:(1)使用CSS Sprite技术(css精灵)
+(2)css和js代码，能尽量合并就合并。(外部链接)
+6.js的延迟加载，异步加载，使用defer标签 、 async=&quot;true&quot;
+你了解过网站前端怎么优化吗</p>
+<p>二、代码优化
+1.项目最后使用压缩工具压缩css，js
+因为这样，可以减少页面的体积加快打开速度。
+2.css的class不要太长，要有清楚的层级关系
+3.js操作样式时使用class，html里不使用内联css和js代码</p>
+<p>三、JS优化
+1.字符串的拼接：使用 += 是较低效的，可使用数组的 join() 方法
+2.使用循环时尤其不要使用 for(in),while比for的效率要高一点。（循环次数很大的时候）
+3.局部变量的访问速度比全局变量更快，而且要尽量避免全局变量
+4.对DOM元素的每一次操作代价都比较高，所以尽量少得操作。
+比如：for循环中有对字符串的拼接，然后使用innerHTML操作,就应该把innerHTML放在for循环外面。
+5.对某个dom节点进行操作时，将这个dom节点存在一个局部变量中。
+6.关于字符串遍历，优先使用正则表达式
+7.使用直接量  var a = [] 比var a = new Array()快
+8.创建dom节点 最好不要直接写字符串，而应该调用creatElement()方法</p>
+<p>四、服务器方面优化
+1.提高自己服务器质量，带宽等方面
+2.开启浏览器缓存，减少http请求
+3.开启gzip压缩</p>
+<p>我认为学习就是不断的自己总结，和吸取别人的经验和教训。俗话说的好:“好记性不如烂笔头！”同理:“代码看得再多，不如敲一篇”因为这样才会体会其中的含义和语义，并能增加自己的记忆力。</p>
+
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://ChinchaiChia.github.io/post/wang-luo-you-hua-bi-xu-zhi-dao-seo-ctrcr-roi-zhe-ji-ge-ci-de-yi-si">
+              <h3 class="post-title">
+                网络优化必须知道：SEO, CTR，CR, ROI这几个词的意思
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">ChinchaiChia</a> | 
+  <a class="rss" href="https://ChinchaiChia.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>
